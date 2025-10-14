@@ -9,5 +9,5 @@ __pycache__/
 profile_default/
 ipython_config.py
 
-R_data/
-output/
+python_notebooks/R_data/
+python_notebooks/output/
