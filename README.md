@@ -3,7 +3,7 @@
 <br>Code used for data analysis
 
 ## Description
-Python notebooks were used to pre-process and analyze scRNAseq data.<br><br>
+Python notebooks were used to pre-process and analyze the scRNAseq data.<br><br>
 Matlab code was used to preview the analyzed data.
 
 ## Contributors
