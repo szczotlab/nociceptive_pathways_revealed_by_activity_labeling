@@ -15,3 +15,5 @@ Matlab application was used to preview and explore the analyzed data.<br><br>
 - [Marcin Szczot](https://liu.se/en/employee/marsz29)
 
 ## Acknowledgement
+
+We would like to acknowledge the hard work of all authors of the article: De-Faria FM*, Carballo GB*, Maidana MB*, Szczot I, Brodzki M, Karlsson C, Flores LN, Olausson H, Larsson M, Szczot M. 
