@@ -1,6 +1,5 @@
 # <div align="center">nociceptive_pathways_revealed_by_activity_labeling<br><br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 </div>
-<br>Code used for data analysis
 
 ## Description
 Python notebooks were used to pre-process and analyze the scRNAseq data.<br><br>
