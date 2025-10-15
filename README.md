@@ -1,5 +1,6 @@
-# nociceptive_pathways_revealed_by_activity_labeling
-Code used for data analysis
+# <div align="center">nociceptive_pathways_revealed_by_activity_labeling<br>[![DOI](https://zenodo.org/badge/858093145.svg)](https://doi.org/10.5281/zenodo.14728203)
+</div>
+<br>Code used for data analysis
 
 ## Description
 Python notebooks were used to pre-process and analyze scRNAseq data.<br><br>
