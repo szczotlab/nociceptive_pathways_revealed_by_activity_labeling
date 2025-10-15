@@ -1,7 +1,7 @@
 ## 1. Install [Anaconda](https://www.anaconda.com/download) Python distribution
 ## 2. Create a separate environment to run the notebooks
 
-Choose one of the below methods to create your environment:<br>
+One can choose one of the methods below to create the environment:<br>
 - Create environment from environment.yaml file:<br><br>
         
         conda env create -f environment.yml
@@ -15,4 +15,5 @@ Choose one of the below methods to create your environment:<br>
 
         conda activate scs
 
-<br><br>You can find more information on how to manage conda environments [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+<br><br>**You can find more information on how to manage conda environments [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
