@@ -4,7 +4,7 @@
 
 ## Description
 Python notebooks were used to pre-process and analyze the scRNAseq data.<br><br>
-Matlab code was used to preview the analyzed data.
+Matlab application was used to preview and explore the analyzed data.  
 
 ## Contributors
 - [Felipe Meira de Faria](https://liu.se/en/employee/felme19)
