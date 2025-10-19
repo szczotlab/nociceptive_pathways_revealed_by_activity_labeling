@@ -3,8 +3,9 @@
 
 ## Description
 [Python notebooks](https://github.com/szczotlab/nociceptive_pathways_revealed_by_activity_labeling/tree/main/python_notebooks) were used to pre-process and analyze the scRNAseq data.<br><br>
-Matlab application was used to preview and explore the analyzed data.<br><br>
-<img width="2053" height="1095" alt="matlabApp" src="https://github.com/user-attachments/assets/795622ad-289b-4e70-980a-ee0a29b693f4" />
+[Matlab application](https://github.com/szczotlab/nociceptive_pathways_revealed_by_activity_labeling/tree/main/Matlab) was used to preview and explore the analyzed data.<br>
+<img width="2067" height="1122" alt="SC_GeneBrowser" src="https://github.com/user-attachments/assets/08afd3b9-37c9-4d0c-8e20-82b99b632ec3" />
+
 
 
 ## Contributors
