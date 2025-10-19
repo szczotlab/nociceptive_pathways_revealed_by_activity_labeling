@@ -1,0 +1,45 @@
+function result = parseStringToVector(inputStr,app)
+    % Return empty if input is empty or not provided
+    if nargin == 0 || isempty(inputStr)
+        result = [];
+        return;
+    end
+
+    % Split input string into separate tokens using space and comma as delimiters
+    tokens = regexp(inputStr, '[ ,]+', 'split');
+
+    result = []; % Initialize result vector
+
+    for i = 1:length(tokens)
+        token = tokens{i};
+        % Check if the token represents a range (e.g., "9-15")
+        rangeMatch = regexp(token, '(\d+)-(\d+)', 'tokens');
+        
+        if ~isempty(rangeMatch)
+            % Extract start and end values from the matched range
+            startVal = str2double(rangeMatch{1}{1});
+            endVal = str2double(rangeMatch{1}{2});
+            if startVal <= endVal
+                result = [result, startVal:endVal]; %#ok<AGROW>
+            end
+        else
+            % Otherwise, it's a single number
+            numVal = str2double(token);
+            if ~isnan(numVal)
+                result = [result, numVal]; %#ok<AGROW>
+            end
+        end
+    end
+
+    % If the result is still empty, return nothing
+    if isempty(result)
+        result = [];
+    else
+        result = unique(result); % Remove duplicates and sort values
+        H=app.GeneEditField.Parent;
+        Data=H.UserData;
+        result = cell2mat(arrayfun(@(x) find(Data.cell_id == x), result, 'UniformOutput', false));
+         if app.CampariChoice.ValueIndex>1
+                filtered_indexes = result(Data.stimuli(result) == (app.CampariChoice.ValueIndex-2));
+         end
+end
